@@ -1,0 +1,3 @@
+vimish-bind normal ctrl-y CMD less "./build.sh"
+vimish-bind normal ctrl-t CMD sh-silent "./leaf"
+style hat
