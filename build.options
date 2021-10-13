@@ -1,0 +1,1 @@
+wayland="yes" # you make need to install a package called 'extra-cmake-modules' to get GLFW to build with Wayland support

@@ -1,0 +1,123 @@
+:# COLORS
+:begin FG_SAND
+:  fgx E0D3B3
+:end
+:begin FG_RED
+:  fgx F15946
+:end
+:begin FG_YELLOW
+:  fgx F9C22E
+:end
+:begin FG_BLUE
+:  fgx 53B3CB
+:end
+:begin FG_GREEN
+:  fgx 44AF69
+:end
+:begin FG_LIGHT_GREY
+:  fgx 777777
+:end
+:begin BG_GREY
+:  bgx 1E1E1E
+:end
+
+:# FONTS
+:begin F_PLAYFAIR
+:    font             fonts/PlayfairDisplay-Regular.otf
+:    font-bold        fonts/PlayfairDisplay-Bold.otf
+:    font-italic      fonts/PlayfairDisplay-Italic.otf
+:    font-bold-italic fonts/PlayfairDisplay-BoldItalic.otf
+:end
+:begin F_COMPMODERN
+:    font             fonts/cmunrm.ttf
+:    font-bold        fonts/cmunbx.ttf
+:    font-italic      fonts/cmunti.ttf
+:    font-bold-italic fonts/cmunbi.ttf
+:end
+:begin F_TYPEWRITER
+:    font             fonts/cmuntt.ttf
+:    font-bold        fonts/cmuntb.ttf
+:    font-italic      fonts/cmunit.ttf
+:    font-bold-italic fonts/cmuntx.ttf
+:end
+:begin F_LUXIM
+:    font             fonts/luximr.ttf
+:    font-bold        fonts/luximb.ttf
+:    font-italic      fonts/luximri.ttf
+:    font-bold-italic fonts/luximbi.ttf
+:end
+
+:# TEXT
+:begin BODY
+:  use FG_SAND
+:  use F_PLAYFAIR
+:  no-underline
+:  no-bold
+:  no-italic
+:  ljust
+:  margin 0.1
+:  size 36
+:end
+
+:begin BULLET1_TEXT
+:    use BODY
+:    ljust
+:    size 36
+:end
+
+:begin BULLET1
+:    use BULLET1_TEXT
+:    bullet 1
+:end
+
+:begin BULLET2_TEXT
+:    use BODY
+:    ljust
+:    size 32
+:end
+
+:begin BULLET2
+:    use BULLET2_TEXT
+:    bullet 2
+:end
+
+:begin BULLET3_TEXT
+:    use BODY
+:    ljust
+:    size 24
+:end
+
+:begin BULLET3
+:    use BULLET3_TEXT
+:    bullet 3
+:end
+
+
+:begin CODE
+:  use F_LUXIM
+:  use FG_GREEN
+:end
+
+:begin TITLE
+:  cjust
+:  size 64
+:end
+
+:begin HEADER
+:  use FG_BLUE
+:  lmargin 0.05
+:  vspace 0.05
+:  size 64
+:end
+
+:begin RESET
+:  use BG_GREY
+:  use FG_SAND
+:  use BODY
+:end
+
+:begin NEXT_SLIDE
+:  vfill
+:  point
+:  use RESET
+:end

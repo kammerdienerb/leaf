@@ -1,0 +1,8 @@
+[leaf] INFO:    Hit any key to continue once the instrument tool has been attached.
+[leaf] INFO:    pid = 22361
+[leaf] (0.00):  loaded options from config file 'leaf.conf'
+[leaf] (0.09):  initialized glfw
+[leaf] (0.14):  created window
+[leaf] INFO:    window:      w = 640, h = 480
+[leaf] INFO:    framebuffer: w = 640, h = 480
+[leaf] (0.14):  video initialized

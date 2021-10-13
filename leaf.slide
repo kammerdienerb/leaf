@@ -1,0 +1,123 @@
+:include style.slide
+:resolution 3840 2160
+:speed inf
+:use RESET
+
+
+:################################################################
+:vspace 0.325
+:use TITLE
+:use CODE
+:bold
+leaf
+
+:use RESET
+:use TITLE
+:size 40
+A simple and efficient terminal emulator
+:use NEXT_SLIDE #################################################
+:use HEADER
+Goals
+
+:use BULLET1
+:use FG_YELLOW
+Speed
+
+:use BULLET2
+Startup, latency, and throughput
+
+:use BULLET1
+:use FG_YELLOW
+Simplicity
+
+:use BULLET2
+Restricted feature set and simple run-time configuration
+
+:use NEXT_SLIDE #################################################
+:use HEADER
+Getting Started
+
+:use BODY
+:use CODE
+:use FG_RED
+$ 
+:use FG_LIGHT_GREY
+# edit build.options
+
+:use FG_RED
+$ 
+:use FG_GREEN
+./build.sh
+
+:use FG_RED
+$ 
+:use FG_LIGHT_GREY
+# edit install.options
+
+:use FG_GREEN
+:use FG_RED
+$ 
+:use FG_GREEN
+sudo ./install.sh
+
+:use NEXT_SLIDE #################################################
+:use HEADER
+Configuration
+
+:use BULLET1
+Config file at  
+:use CODE
+~/.config/leaf.conf
+
+:use BULLET1
+Syntax:
+
+:use BULLET2
+ 
+:use CODE
+:use FG_RED
+key
+:use BULLET2_TEXT
+:use CODE
+:use FG_SAND
+ [
+:use CODE
+:use FG_RED
+val
+:use BULLET2_TEXT
+:use CODE
+:use FG_SAND
+]
+
+:use BULLET3
+ 
+:use CODE
+:use FG_RED
+val
+:use BULLET3_TEXT
+ may be single or double quoted
+
+:use BULLET3
+ Boolean options such as 
+:use CODE
+:use FG_RED
+quiet
+:use BULLET3_TEXT
+ don't require a 
+:use CODE
+:use FG_RED
+val
+
+:use BULLET2
+ Comments:  
+:use CODE
+:use FG_RED
+#
+:use BULLET2_TEXT
+ to end-of-line
+ 
+:use NEXT_SLIDE #################################################
+:use HEADER
+Other Stuff
+
+:################################################################
